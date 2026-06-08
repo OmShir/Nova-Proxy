@@ -17,7 +17,7 @@ jobs:
         uses: cloudflare/pages-action@1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: YOUR_ACCOUNT_ID
-          projectName: YOUR_PROJECT_NAME
-          directory: YOUR_ASSET_DIRECTORY
+          accountId: 7803a9bf86e25a0b443db4fbc72fb781
+          projectName: Nova
+          directory: Nova
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
